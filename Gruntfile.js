@@ -12,24 +12,16 @@ module.exports = function(grunt) {
 
 	// Project configuration
 	grunt.initConfig({
-    concat: {
-      /*options: {
-        banner: '<%= banner %>\n<%= jqueryCheck %>\n<%= jqueryVersionCheck %>',
-        stripBanners: false
-      },*/
-      target1: {
-        src: [
+		concat: {
+			target1: {
+				src: [
 					'src/js/modernizr.js',
 					'src/js/init.js'
-        ],
-        dest: 'assets/js/application.js'
-      }
-    },
+				],
+				dest: 'assets/js/application.js'
+			}
+		},
 		uglify: {
-			/*target1: {
-				src: 'src/js/init.js',
-				dest: 'assets/js/init.min.js'
-			}*/
 			target1: {
 				src: '<%= concat.target1.dest %>',
 				dest: 'assets/js/application.min.js'
