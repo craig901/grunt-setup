@@ -1,0 +1,9 @@
+header nav ul li {
+  list-style: none;
+}
+footer div.col {
+  float: left;
+}
+section#home ul li {
+  list-style: none;
+}
