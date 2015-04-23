@@ -1,7 +1,7 @@
 grunt-setup
 ===========
 
-A simple grunt setup with Concat for JS, Uglify for JS and Less Comilation
+A simple grunt setup with Concat for JS, Uglify for JS and Less Compilation
 --------------
 
 To use this setup you must first
